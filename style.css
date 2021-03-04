@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    max-width: 15%;
+    width: 100%;
+    padding: 0px 10px;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px 6px #ccc;;
+}
+.box.active-box{
+    display: flex;
+}
+.box img{
+    max-width: 70%;
+}
